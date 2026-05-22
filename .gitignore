@@ -1,0 +1,7 @@
+proxy_list.txt
+config.py 
+sessions/
+session_manager.py
+proxy_tester.py
+venv/
+__pycache__/

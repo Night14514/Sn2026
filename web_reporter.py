@@ -1,4 +1,4 @@
-import asyncio
+"""import asyncio
 import random
 import string
 import time
@@ -151,4 +151,4 @@ async def mass_web_reports_free(target_id, target_phone, count):
             success += 1
         await asyncio.sleep(random.uniform(5, 15))
     print(colored(f"[+] Веб-жалоб отправлено успешно: {success}/{count}", "green"))
-    return success
+    return success"""

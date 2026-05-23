@@ -35,3 +35,26 @@ Stacktrace:
 
 2026-05-22 06:41:12,853 - INFO - Атака прервана пользователем
 2026-05-22 07:04:36,342 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-22 07:24:47,398 - INFO - Атака прервана пользователем
+2026-05-23 03:28:39,007 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 03:37:21,670 - INFO - Атака прервана пользователем
+2026-05-23 03:44:51,082 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 03:45:09,644 - ERROR - Ошибка на акке acc3: ReportRequest.__init__() got an unexpected keyword argument 'reason'
+2026-05-23 03:45:09,645 - WARNING - Аккаунт acc3 получил ошибку: ReportRequest.__init__() got an unexpected keyword
+2026-05-23 03:46:30,994 - INFO - Атака прервана пользователем
+2026-05-23 03:52:53,258 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 03:53:14,161 - ERROR - Ошибка на акке acc3: 'TelegramClient' object has no attribute 'report'
+2026-05-23 03:53:14,161 - WARNING - Аккаунт acc3 получил ошибку: 'TelegramClient' object has no attribute 'report'
+2026-05-23 03:53:44,866 - INFO - Атака прервана пользователем
+2026-05-23 03:59:25,374 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 03:59:41,213 - ERROR - Ошибка на акке acc3: ReportRequest.__init__() got an unexpected keyword argument 'reason'
+2026-05-23 03:59:41,213 - WARNING - Аккаунт acc3 получил ошибку: ReportRequest.__init__() got an unexpected keyword
+2026-05-23 03:59:50,313 - INFO - Атака прервана пользователем
+2026-05-23 04:01:03,492 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 04:01:19,307 - ERROR - Ошибка на акке acc3: ReportRequest.__init__() got an unexpected keyword argument 'reason'
+2026-05-23 04:01:19,307 - WARNING - Аккаунт acc3 получил ошибку: ReportRequest.__init__() got an unexpected keyword
+2026-05-23 04:01:27,475 - INFO - Атака прервана пользователем
+2026-05-23 04:15:23,589 - INFO - Проверка конфликта API: веб-репортер не использует API, конфликта нет.
+2026-05-23 04:15:36,585 - ERROR - Ошибка на акке acc3: ReportRequest.__init__() got an unexpected keyword argument 'reason'
+2026-05-23 04:15:36,585 - WARNING - Аккаунт acc3 получил ошибку: ReportRequest.__init__() got an unexpected keyword
+2026-05-23 04:15:42,937 - INFO - Атака прервана пользователем

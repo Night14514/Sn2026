@@ -3,6 +3,14 @@ import random
 from pathlib import Path
 from telethon import TelegramClient, functions, types
 from telethon.errors import FloodWaitError, PhoneNumberBannedError, AuthKeyError
+from telethon.tl.types import (
+    InputReportReasonSpam,
+    InputReportReasonViolence,
+    InputReportReasonChildAbuse,
+    InputReportReasonFake,
+    InputReportReasonIllegalDrugs,
+    InputReportReasonPornography
+)
 from termcolor import colored
 from config import API_ID, API_HASH, SESSIONS_DIR, REPORTS_PER_SESSION, REPORT_DELAY_TELEGRAM
 from report_data import make_report_text
@@ -65,9 +73,10 @@ async def send_report_from_session(session_path, target_id, target_phone):
        
         await client(functions.messages.ReportRequest(
             peer=target_id,
-            reason=reason,
+            reason=[reason],   
             message=text
         ))
+
         attack_logger.info(f"Жб отправлена с {account_name} (@{me.username}) на цель {target_id}")
         print(colored(f"[+] Жб отправлена с {account_name}", "green"))
         return True
